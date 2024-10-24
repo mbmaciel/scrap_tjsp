@@ -2,7 +2,7 @@ const express = require('express');
 const puppeteer = require('puppeteer');
 
 const app = express();
-const port = 3001;
+const port = 3000;
 
 // Define a rota principal
 app.get('/scrape', async (req, res) => {
